@@ -21,5 +21,9 @@ namespace Model
         [Column("cpf")]
         public string CPF { get; set; }
 
+        [Column("registro_ativo")]
+        public bool RegistroAtivo { get; set; }
+
+
     }
 }
